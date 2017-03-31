@@ -19,7 +19,7 @@ categories: java
 1. 테이블, 구분자를 변경할 때마다 작업을 해야한다.
 	- [`FileInfoContainable`](https://github.com/gogleowner/dml_query_generator/blob/master/src/main/java/io/github/gogleowner/container/FileInfoContainable.java) 인터페이스의 구현체를 만들어서
 	- [`CsvToDmlJobConfiguration`](https://github.com/gogleowner/dml_query_generator/blob/master/src/main/java/io/github/gogleowner/configuration/CsvToDmlGenerateJobConfiguration.java#L68) 에 구현체를 리턴해줘야한다는 것.
-	2. 그래서, [`JobParameter`](http://docs.spring.io/spring-batch/apidocs/org/springframework/batch/core/JobParameters.html) 의 형식으로 넘기는 작업이 필요하다.
+	- 그래서, [`JobParameter`](http://docs.spring.io/spring-batch/apidocs/org/springframework/batch/core/JobParameters.html) 의 형식으로 넘기는 작업이 필요하다.
 		- 자바 특성상 컴파일 해서 실행해야하는 점은 어쩔 수없지만 파라미터 형태로 한다면 1번항목은 극복할 수 있을 듯 싶다.
 		- 파라미터 : delimeter=, csvFilePath=sample_data tableName=table_name 요런 형태로!
 
