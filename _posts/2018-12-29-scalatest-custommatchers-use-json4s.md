@@ -267,6 +267,8 @@ trait JsonMatchers {
 
 지금까지 ScalaTest의 Matchers 를 customize한 Matchers를 작성하여 두 Json 의 비교를 할 수 있는 코드를 작성해보았습니다. 이 글을 통해 ScalaTest와 Json4s를 더욱 풍성하게 사용할 수 있길 바랍니다.
 
+이 글의 전체 코드는 [여기](https://github.com/gogleowner/blog-code/tree/master/json-matchers)에서 확인할 수 있습니다.
+
 ## Reference
 - https://github.com/json4s/json4s
 - http://www.scalatest.org/user_guide/using_matchers#usingCustomMatchers
