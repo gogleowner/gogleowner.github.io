@@ -20,7 +20,7 @@ categories: linux
 
 - 다음 그림을 통해 PID 는 1764인 프로세스가 존재하는 것을 확인할 수 있다.
 
-	[![1_lsof.png](https://s26.postimg.org/72qo309bd/1_lsof.png)](https://postimg.org/image/jhdg3c0th/)
+	[![1_lsof.png](https://i.postimg.cc/s2bsNNhL/1-lsof.png)](https://postimg.org/image/jhdg3c0th/)
 
 ## 프로세스 종료
 - lsof 를 통해 PID가 1764라는 것을 알았으니, kill 명령어를 이용해서 프로세스를 제거한다.

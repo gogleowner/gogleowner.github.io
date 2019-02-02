@@ -50,7 +50,7 @@ categories: git
 ### 3. git commit
 - 작업한 내용을 commit 합니다. 저의 경우 ```$ git commit``` 을 하면, Sublime Text로 커밋메시지를 입력하도록 해놓았는데요. 
 - 커밋메시지에 **changeId** 가 있으면 gerrit에 push할 준비가 된 것입니다. 바로 5번 과정으로 넘어갑니다.
-![commit-msg](https://s26.postimg.org/5hae3boa1/commit-msg.png)
+![commit-msg](https://i.postimg.cc/Jhgq5WPM/commit-msg.png)
 - changeId가 없으면 아래 과정을 진행하고 5번 과정으로 넘어갑니다.
 - 아래 과정을 진행했는데도 changeId 가 나오지 않는다면, ```$ git commit --amend``` 명령어를 한번 더 입력하면 changeId 가 나올 것입니다.
 
@@ -107,7 +107,7 @@ categories: git
 
 - 위와 같은 메시지가 나오면 성공입니다.
 - gerrit사이트에 들어가면 푸쉬 내역이 나옵니다.
-![gerrit_review_shot](https://s26.postimg.org/g5e525y95/gerrit_review_shot.png)
+![gerrit_review_shot](https://i.postimg.cc/mrqvzJ9F/gerrit-review-shot.png)
 - 여기까지 git-review 프로세스의 흐름이었습니다.
 
 
@@ -115,7 +115,7 @@ categories: git
 ### changeId란?
 - gerrit에서 change내역을 알아보기 위한 id값입니다.
 - changeId를 보고 이 change가 이전에 올려졌던 change에 대한 patchset인지, 새로 생성되어야할 change인지 식별합니다.
-![change-id](https://s26.postimg.org/65j8m9mzt/change-id.png)
+![change-id](https://i.postimg.cc/R083DSkp/change-id.png)
 
 
 ### gerrit 서버의 [commit-msg hook](https://gerrit.googlecode.com/svn/documentation/2.0/cmd-hook-commit-msg.html)란?
